@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Patek Philippe</title>
+    <link rel="stylesheet" href="../css/product.css">
+
+    <!--BOXICONS-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--REMIXCON-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" 
+    rel="stylesheet"
+    />
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">WatcHGoods</a>
+        
+        <ul class="nav-list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="location.html">Location</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="hamburger"></div>
+    </header>
+
+    <!--CONTENT PRODUCT-->
+    <div class="content">
+        <div class="buttons">
+            <a href="product.html"><button class="btn" onclick="filterObjects('all')">All Watches</button></a>
+            <a href="patek.html"><button class="btn" onclick="filterObjects('patek')">Patek Philippe</button></a>
+            <a href="rolex.html"><button class="btn" onclick="filterObjects('rolex')">Rolex</button></a>
+            <a href="cartier.html"><button class="btn" onclick="filterObjects('cartier')">Cartier</button></a>
+            <a href="omega.html"><button class="btn" onclick="filterObjects('omega')">Omega</button></a>
+        </div>
+        <div class="container">
+
+            <h3 class="title">PATEK PHILIPPE</h3>
+
+            <div class="products-container">
+                <!--patek-->
+                <div class="product" data-name="p-13">
+                    <img src="../image/patek1.png" alt="">
+                    <h3>GALACTUS</h3>
+                    <div class="price">$90,999.00</div>
+                </div>
+
+                <div class="product" data-name="p-14">
+                    <img src="../image/patek2.png" alt="">
+                    <h3>HARLEY</h3>
+                    <div class="price">$52,999.00</div>
+                </div>
+
+                <div class="product" data-name="p-15">
+                    <img src="../image/patek3.png" alt="">
+                    <h3>COOPE</h3>
+                    <div class="price">$62,999.00</div>
+                </div>
+
+                <div class="product" data-name="p-16">
+                    <img src="../image/patek4.png" alt="">
+                    <h3>TEXANS</h3>
+                    <div class="price">$77,999.00</div>
+                </div>
+            </div>       
+        </div>
+    </div>
+
+        <!--CUSTOM JS-->
+        <script src="../js/script.js"></script>
+
+        <!--FOOTER-->
+        <section class="footer">
+            <div class="main">
+                <div class="page">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            <div class="page">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="page">
+                <h4>Contact Us</h4>
+                <div class="social">
+                    <a href="https://twitter.com/"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://instagram.com"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://youtube.com"><i class='bx bxl-youtube' ></i></a>
+                </div>
+            </div>
+            </div>
+        </section>
+</body>
+</html>

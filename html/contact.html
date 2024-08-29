@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/contact.css">
+
+    <!--BOXICONS-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--REMIXCON-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" 
+    rel="stylesheet"
+    />
+
+    <!--HEADER-->
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">WatcHGoods</a>
+        
+        <ul class="nav-list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="location.html">Location</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="hamburger"></div>
+    </header>
+
+    <!--CONTENT-->
+    <div class="contactus">
+        <div class="title">
+            <h2>CONTACT US</h2>
+        </div>
+        <div class="box">
+            <!--form-->
+            <div class="contact form">
+                <h3>Feel free to ask us!</h3>
+                <form name="link" method="dialog" onsubmit="return form()">
+                    <div class="formbox">
+                        <div class="row50">
+                            <div class="inputbox">
+                                <span>Full Name</span>
+                                <input type="text" id="name" placeholder="ex: Jack Sparrow">
+                            </div>
+                            <div class="inputbox">
+                                <span>Country</span>
+                                <input type="text" id="country" placeholder="ex: Singapore">
+                            </div>
+                        </div>
+
+                        <div class="row50">
+                            <div class="inputbox">
+                                <span>Mobile</span>
+                                <input type="text" id="mobile" placeholder="ex: 08234567890">
+                            </div>
+                            <div class="inputbox">
+                                <span>Email</span>
+                                <input type="text" id="email" placeholder="ex: alex.jayden@gmail.com">
+                            </div>
+                        </div>
+
+                        <div class="row100">
+                            <div class="inputbox">
+                                <span>Message</span>
+                                <textarea id="message" class="message" name="message" placeholder ="You can type your message here for us."></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="row100">
+                            <input type="checkbox" name = "copy" id="copy" value="copy">
+                            <label for="copy">Send me a copy to my email.</label>
+                            
+                        </div>
+
+                        <div class="row100">
+                            <div class="inputbox">
+                                <input type="submit" value="Send">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--info box-->
+            <div class="contact info">
+                <h3>Contact Info</h3>
+                <div class="infobox">
+                    <div>
+                        <span><i class="ri-map-pin-line"></i></span>
+                        <p>Senayan City, Lv. 3 Unit Island 8, Jl. Sudirman, Gelora Bung Karno No. 3-5, Jakarta Pusat 10130.<br>Indonesia.</p>
+                    </div>
+                    <div>
+                        <span><i class="ri-mail-line"></i></span>
+                        <p>watchgoodsofficial@gmail.com</p>
+                    </div>
+                    <div>
+                        <span><i class="ri-phone-line"></i></span>
+                        <p>+62 111 123 4444</p>
+                    </div>
+
+                    <!--social media-->
+                    <ul class="soc">
+                        <li><a href="https://youtube.com/"><i class="ri-youtube-line"></i></a></li>
+                        <li><a href="https://twitter.com/"><i class="ri-twitter-line"></i></a></li>
+                        <li><a href="https://instagram.com"><i class="ri-instagram-line"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--CUSTOM JS-->
+<script src="../js/contact.js"></script>
+
+
+<!--FOOTER-->
+<section class="footer">
+    <div class="main">
+        <div class="page">
+            <h4>Menu</h4>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    <div class="page">
+        <h4>Information</h4>
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </div>
+    <div class="page">
+        <h4>Contact Us</h4>
+        <div class="social">
+            <a href="https://twitter.com/"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://instagram.com"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://youtube.com"><i class='bx bxl-youtube' ></i></a>
+        </div>
+    </div>
+    </div>
+</section>
+</body>
+</html>
